@@ -17,10 +17,8 @@ h1, h2, h6 {
 header {
   text-align: center;
 }
-
 header a:first-child {
   color: red;
-  font-size: 20px;
 }
 
 h6 {
@@ -34,7 +32,6 @@ article {
   display: flex;
   flex-wrap: wrap;
 }
-
 article code {
   font: 15px monospace;
   background: #000;
@@ -49,17 +46,14 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-
 article code .before {
   float: left;
   width: 40%;
 }
-
 article code .after {
   float: right;
   width: 40%;
 }
-
 article section {
   flex-grow: 1;
   flex-basis: 45%;
@@ -73,7 +67,6 @@ article section {
   overflow: auto;
   box-sizing: border-box;
 }
-
 article #selling-points {
   flex-grow: 2;
   flex-basis: 100%;
@@ -98,41 +91,5 @@ article #selling-points {
 .warning {
   background-color: orange;
 }
-
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
-/*# sourceMappingURL=solution.css.map */
 
 /*# sourceMappingURL=solution.css.map */
