@@ -1,9 +1,10 @@
 $color_header: #6B8EFF;
 $color_text: #2748B3;
-$font-text: 100% "Space Mono", monospace;
-$font-code: 15px monospace;
-$color-background: #000;
-$standard-padding: 8px;
+$font_text: 100% "Space Mono", monospace;
+$font_code: 15px monospace;
+$color_background: #000;
+$standard_padding: 8px;
+$color_red: red;
 
 @mixin shadow($property){
     -webkit-box-shadow: $property;
@@ -13,10 +14,10 @@ $standard-padding: 8px;
 
 body{
     color: $color_text;
-    font: $font-text;
+    font: $font_text;
     margin: 0px;
     padding: $standard-padding * 0;
-    background-color: $color-background;
+    background-color: $color_background;
     background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
@@ -29,16 +30,12 @@ h1,h2,h6{
 
 header {
     text-align: center;
-
-    a:first-child{
-      color: red;  
-    }
 }
 
 h6 {
     text-align: center;
     font-size: 2em;
-    padding: $standard-padding * 4;
+    padding: $standard_padding * 4;
     margin-bottom: 0px;
 }
 
@@ -47,7 +44,7 @@ article{
     flex-wrap: wrap;
 
     code{
-        font: $font-code;
+        font: $font_code;
         background: #000;
         border: 1px solid #ddd;
         color: #666;
@@ -59,16 +56,15 @@ article{
         padding: 1em 1.5em;
         display: block;
         word-wrap: break-word;
+    }
+    .before{
+        float: left;
+        width: 40%;
+    }
 
-        .before{
-            float: left;
-            width: 40%;
-        }
-
-        .after{
-            float: right;
-            width: 40%;
-        }
+    .after{
+        float: right;
+        width: 40%;
     }
 
     section{
@@ -76,7 +72,7 @@ article{
         flex-basis: 45%;
         border: 1px silver solid;
         @include shadow(10px 10px 19px -4px rgba(255, 255, 255, 0.75));
-        padding: $standard-padding * 2;
+        padding: $standard_padding * 2;
         margin: 16px;
         clear: both;
         overflow: auto;
