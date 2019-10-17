@@ -43,11 +43,11 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-article .before {
+article code.before {
   float: left;
   width: 40%;
 }
-article .after {
+article code.after {
   float: right;
   width: 40%;
 }
@@ -64,7 +64,7 @@ article section {
   overflow: auto;
   box-sizing: border-box;
 }
-article #selling-points {
+article section#selling-points {
   flex-grow: 2;
   flex-basis: 100%;
 }
